@@ -1,2 +1,2 @@
 # spring-common-service-lib
-common microservice plumbing 
+Utility library for Spring microservices

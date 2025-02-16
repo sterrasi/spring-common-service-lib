@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-common-sevice-lib
+
+spring-common-service-lib:
+  configuration-logger:
+      enabled: true
+      redaction-keys:
+        - password
+        - id
+        - secret
+        - key
+        - token
+        - credential
+        - certificate
+      exclusion-keys:
+        - sun.
+        - java.

@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "spring-common-service-lib.configuration-logger",
+      "type": "com.github.sterrasi.spring.common.config.AppConfigurationLogger$AppConfigurationLoggerProperties",
+      "sourceType": "com.github.sterrasi.spring.common.config.AppConfigurationLogger$AppConfigurationLoggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring-common-service-lib.configuration-logger.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.github.sterrasi.spring.common.config.AppConfigurationLogger$AppConfigurationLoggerProperties"
+    },
+    {
+      "name": "spring-common-service-lib.configuration-logger.redaction-keys",
+      "type": "java.util.Set",
+      "sourceType": "com.github.sterrasi.spring.common.config.AppConfigurationLogger$AppConfigurationLoggerProperties"
+    },
+    {
+      "name": "spring-common-service-lib.configuration-logger.exclusion-keys",
+      "type": "java.util.Set",
+      "sourceType": "com.github.sterrasi.spring.common.config.AppConfigurationLogger$AppConfigurationLoggerProperties"
+    }
+  ]
+}
